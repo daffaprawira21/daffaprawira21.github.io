@@ -71,7 +71,7 @@ Start Content
 */
 /*Start Spotlight*/
 .spotlight {
-    background-image: url("../images/home.jpg");
+    background-image: url("../images/netik.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,38 +97,51 @@ Start Content
 /*Start Box1*/
 .box-1 {
     overflow: auto;
-    background-color: rgb(236, 231, 231);
-    padding: 10px 100px 10px 100px;
+    background-color: white;
+    padding: 10px 10px 10px 30px;
     text-align: justify;
 }
-.box-1 h2 {
-    text-align: center;
-}
 
+.clear-1 {
+    text-align:justify;
+    width:45%;
+    background-color:white;
+    border:0px ;
+    padding:10px;
+}
 /*End Box1*/
 
 /*Start Box2*/
 .box-2 {
     overflow: auto;
-    background-color: white;
-    padding: 10px 100px 10px 100px;
-    text-align: center;
+    background-color: rgb(255, 246, 246);
+    padding: 10px 10px 10px 700px;
+    text-align: justify;
 }
 
-.box-2 h2 {
-    text-align: center;
+.clear-2 {
+    text-align:justify;
+    width:90%;
+    background-color:rgb(255, 246, 246);
+    border:0px ;
+    padding:10px;
 }
 /*End Box2*/
 
 /*Start Box3*/
 .box-3 {
     overflow: auto;
-    background-color: rgb(236, 231, 231);
-    padding: 10px 100px 10px 100px;
+    background-color: rgb(243, 239, 239);
+    padding: 10px 10px 10px 30px;
     text-align: justify;
 }
-.box-3 h2 {
-    text-align: center;
+
+.clear-3 {
+    text-align:justify;
+    width:45%;
+    background-color:rgb(243, 239, 239);
+    border:0px ;
+    padding:10px;
 }
 /*End Box3*/
 
