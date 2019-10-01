@@ -4,6 +4,7 @@
         <title>DAPWEB-CSS</title>
         <meta type="description" content="ini adalah website pembelajaran html dan css sederhana">
         <link rel="stylesheet" href="css/css.css">
+        <link rel="icon" href="images/DP.png" type="image/x-icon">
     </head>
     <body>
         <!--Start Container-->
@@ -13,7 +14,7 @@
 
                 <!--Image Logo-->
                 <a href="index.html">
-                    <img src="images/Logo3.png" height="150px" width="200px">
+                    <img src="images/Logo3.png" height="160px" width="200px">
                 </a>
                 <!--End Logo-->
 
@@ -43,21 +44,86 @@
             
             <!--Start HTML-->
             <div class="box-1">
-            <h2>Apa itu CSS ?</h2>
-            <p>Cascading Style Sheets atau lebih dikenal dengan CSS adalah bahasa pemrograman desain yang berguna untuk menyederhanakan proses pembuatan website. Pengertian CSS secara umumnya adalah bahasa pemrograman yang dipakai untuk mendesain halaman depan atau tampilan website (front end).
+            <h2>Apa Itu CSS? Pengertian dan Cara Kerjanya</h2>
+            <p>CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti HTML. CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.
 
-                CSS menangani tampilan dan ‘rasa’ dari halaman website. Ada banyak hal yang dapat Anda lakukan menggunakan CSS dibandingkan dengan bahasa pemrograman inti seperti HTML dan PHP. Ketika menggunakan CSS, Anda dapat mengatur warna teks, jenis font, baris antar paragraf, ukuran kolom, jenis background yang dipakai, desain layout, variasi tampilan di berbagai perangkat yang berbeda, dan berbagai efek yang dipakai di dalam website.
+                CSS dibuat dan dikembangkan oleh W3C (World Wide Web Consortium) pada tahun 1996 untuk alasan yang sederhana. Dulu HTML tidak dilengkapi dengan tags yang berfungsi untuk memformat halaman. Anda hanya perlu menulis markup untuk situs.
+            </p>    
+            <p>Tags, seperti<b>&lt;font&gt;</b>, diperkenalkan di HTML versi 3.2, dan ketika itu menyebabkan banyak masalah bagi developer. Karena website memiliki berbagai font, warna background, dan style, maka untuk menulis kembali (rewrite) kode memerlukan proses yang sangat panjang dan sulit. Oleh sebab itu, W3C membuat CSS untuk menyelesaikan masalah ini.
                 
-                CSS sangat mudah dipelajari, tapi juga powerful karena dapat mengontrol penyajian tampilan dari dokumen HTML mulai dari yang simpel sampai kompleks. Tidak heran jika saat ini CSS hampir dipakai di berbagai website untuk dikombinasikan dengan HTML maupun PHP.</p>
+                HTML dan CSS memiliki keterikatan yang erat. Karena HTML adalah bahasa markup (fondasi situs) dan CSS memperbaiki style (untuk semua aspek yang terkait dengan tampilan website), maka kedua bahasa pemrograman ini harus berjalan beriringan.
+                
+                Tak hanya penting di sisi teknis, CSS juga berpengaruh pada tampilan sebuah website. Tentunya Anda tidak ingin website terlihat seperti situs yang ‘telanjang’ tanpa modifikasi apa pun, bukan?</p>
             </div>
             <!--End HTML-->
 
             <!--Start HTML1-->
             <div class="box-2">
-            <h2></h2>
-            <p></p>
+            <h2>Kelebihan CSS</h2>
+            <p>Mudah bagi Anda untuk mengetahui mana website yang menggunakan CSS dan mana yang tidak.
+
+                Anda pasti pernah membuka website, tapi sesaat kemudian gagal loading dan malah menampilkan background putih yang didominasi teks hitam dan biru. Situasi ini menggambarkan bahwa CSS pada situs tersebut tidak dapat di-load dengan benar atau situs sama sekali tidak memiliki CSS. Umumnya, situs seperti ini hanya menerapkan HTML.
+                
+                Sebelum menggunakan CSS, semua stylizing harus disertakan ke dalam markup HTML. Itu berati Anda harus mendeskripsikan semua background, warna font, alignment, dan lain-lain secara terpisah.
+            </p>       
+            <p>Dengan CSS, Anda dapat mengatur tampilan semua aspek pada file yang berbeda, lalu menentukan style, kemudian mengintegrasikan file CSS di atas markup HTML. Alhasil, markup HTML bisa lebih mudah di-maintain.
+                
+                Singkatnya, dengan CSS, Anda tidak perlu mendeskripsikan tampilan dari masing-masing elemen secara berulang-ulang. Anda tidak membuang-buang waktu, kode yang digunakan pun lebih singkat, dan error dapat diminimalisir.
+                
+                Karena opsi kustomisasi yang ada hampir tak terbatas, CSS memungkinkan Anda untuk menerapkan berbagai macam style pada satu halaman HTML. </p>
             </div>
             <!--End HTML1-->
+
+            <!--Start HTML3-->
+            <div class="box-3">
+                <h2>Cara Kerja CSS</h2>
+                <p>CSS menggunakan bahasa Inggris sederhana berbasis syntax yang dilengkapi dengan sekumpulan rule yang mengaturnya. Seperti yang telah kami sebutkan sebelumnya, HTML tidak dibuat untuk menerapkan elemen style, hanya markup halaman saja. HTML dirancang semata-mata untuk mendeskripsikan konten.
+                    Satu yang menjadi pertanyaannya sekarang, bagaimana caranya style paragraf? Struktur syntax CSS cukup sederhana. Struktur ini memiliki selector dan declaration block. Pilih elemen yang diinginkan, kemudian deklarasi (declare) yang harus Anda lakukan terhadap elemen tersebut. Sangat mudah, kan?
+
+                    Ada berbagai rule yang harus diingat. Meskipun demikian, rule struktur cukup simpel dan sederhana.
+                </p>   
+                <p>Selector mengarah ke elemen HTML yang ingin Anda ubah tampilannya. Declaration block memuat satu atau lebih banyak deklarasi (declaration) yang dipisahkan dengan tanda titik koma.
+
+                    Setiap deklarasi menyertakan nama dan value dari properti CSS, yang dipisahkan dengan tanda koma. Umumnya deklarasi CSS diakhiri dengan tanda titik koma, sedangkan declaration block dikelilingi oleh tanda kurung kurawal.
+                </p>
+            </div>
+            <!--End HTML3-->
+
+            <!--Start HTML4-->
+            <div class="box-4">
+                <h2>CSS Style Internal, External, dan Inline</h2>
+                <p>Kami akan membahas masing-masing CSS Style secara singkat. Untuk informasi atau pembahasan yang lebih mendalam, kami menyertakan link di bawah ikhtisar.
+
+                    CSS Style Internal diload setiap kali website di-refresh, dan kekurangannya adalah waktu loading semakin lama. CSS style yang sama pun tidak dapat digunakan di halaman lain karena sudah aktif terlebih dulu di suatu halaman. 
+                    Namun di balik kekurangannya, CSS Style Internal memiliki beberapa kelebihan. Salah satunya adalah kemudahan dalam sharing template untuk pratinjau (preview) karena CSS hanya ada di satu halaman.
+                </p>      
+                <p>External merupakan CSS style yang paling mudah dan tidak menyulitkan. Semuanya dilakukan secara eksternal pada file .css. Styling dilakukan di file terpisah, lalu terapkan CSS ke halaman mana pun yang Anda inginkan. Sayangnya, CSS Style External juga memperlama waktu loading.
+                    
+                    CSS Style Inline menggunakan elemen spesifik yang memuat tag <b>&lt;style&gt;&lt;style&gt;</b>. Karena setiap komponen harus di-stylize, maka Inline bukan metode yang tepat jika Anda ingin menggunakan CSS dengan cepat. Namun di sisi lain, hal tersebut mendatangkan keuntungan. Misalnya, jika Anda ingin mengubah satu elemen, 
+                    atau menampilkan pratinjau dengan cepat, atau Anda tidak punya akses ke file CSS.
+                </p>
+            </div>
+            <!--End HTML4-->
+
+             <!--Start HTML5-->
+             <div class="box-5">
+                <h2>Kesimpulan</h2>
+                <p>Berikut beberapa poin yang dapat disimpulkan dari artikel ini;</p>
+                <ul>
+                    <li>
+                            CSS dibuat untuk dapat bekerja bersama dengan bahasa markup seperti HTML. Biasanya CSS digunakan untuk mengatur tampilan halaman.
+                    </li>
+                    <li>
+                            Ada tiga style di CSS, dan untuk menerapkan CSS di banyak halaman pada waktu bersamaan, gunakan External style.
+                    </li>
+                    <li>
+                            Saat ini sudah banyak website yang menggunakan CSS. Hal ini dikarenakan CSS adalah salah satu bahasa markup yang diwajibkan ada.
+                    </li>
+                </ul>
+            Semoga artikel ini dapat berguna bagi Anda. Jika punya pertanyaan tentang apa itu CSS, silakan tuliskan pada kolom komentar di bawah ini.
+                </p>
+            </div>
+            <!--End HTML5-->
             
             </div>
             <!--End Content-->

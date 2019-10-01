@@ -26,7 +26,10 @@ a:link {
 
 .header {
     text-align: center;
-    background-image: url("../images/michal.jpg");
+    background: linear-gradient(to right, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* Standard syntax */
+	background: -webkit-linear-gradient(left, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Firefox 3.6 to 15 */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,10 +39,7 @@ a:link {
 
 .menu ul {
     font-size: 20px;
-    background: linear-gradient(to right, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* Standard syntax */
-	background: -webkit-linear-gradient(left, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Firefox 3.6 to 15 */
+    background: rgb(48, 47, 49);
     margin: auto;
     padding: 10px 0px 10px 0px;
     overflow: auto;
@@ -82,7 +82,7 @@ Start Content
 }
 
 .spotlight h1 {
-    background: black;
+    background: rgb(48, 47, 49);
     width: 400px;
     height: 50px;
     text-align: center;
@@ -104,7 +104,7 @@ Start Content
 
 .clear-1 {
     text-align:justify;
-    width:45%;
+    width:42%;
     background-color:white;
     border:0px ;
     padding:10px;
@@ -115,13 +115,13 @@ Start Content
 .box-2 {
     overflow: auto;
     background-color: rgb(255, 246, 246);
-    padding: 10px 10px 10px 700px;
+    padding: 10px 10px 10px 30px;
     text-align: justify;
 }
 
 .clear-2 {
     text-align:justify;
-    width:90%;
+    width:42%;
     background-color:rgb(255, 246, 246);
     border:0px ;
     padding:10px;

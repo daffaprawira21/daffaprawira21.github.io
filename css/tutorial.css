@@ -26,7 +26,10 @@ a:link {
 
 .header {
     text-align: center;
-    background-image: url("../images/michal.jpg");
+    background: linear-gradient(to right, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* Standard syntax */
+	background: -webkit-linear-gradient(left, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Firefox 3.6 to 15 */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,10 +39,7 @@ a:link {
 
 .menu ul {
     font-size: 20px;
-    background: linear-gradient(to right, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* Standard syntax */
-	background: -webkit-linear-gradient(left, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Firefox 3.6 to 15 */
+    background: rgb(48, 47, 49);
     margin: auto;
     padding: 10px 0px 10px 0px;
     overflow: auto;
@@ -76,13 +76,13 @@ Start Content
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 200px;
+    height: 400px;
     padding: 20px 0;
     background-attachment: fixed;
 }
 
 .spotlight h1 {
-    background: black;
+    background: rgb(48, 47, 49);
     width: 200px;
     height: 45px;
     text-align: center;
@@ -105,14 +105,23 @@ Start Content
     text-align: center;
 }
 
+.tutorial, .tutorial-1 {
+    float: left;
+    width: 70%;
+}
+
+.tutorial-2, .tutorial-3, .tutorial-4 {
+    float: left;
+    width: 50%;
+}
 /*End Box1*/
 
 /*Start Box2*/
 .box-2 {
     overflow: auto;
-    background-color: white;
+    background-color: rgb(236, 231, 231);
     padding: 10px 100px 10px 100px;
-    text-align: center;
+    text-align: justify;
 }
 
 .box-2 h2 {
@@ -132,12 +141,20 @@ Start Content
 }
 /*End Box3*/
 
+/*Start Box4*/
+.box-4 {
+    overflow: auto;
+    background-color: rgb(236, 231, 231);
+    padding: 10px 100px 10px 100px;
+    text-align: justify;
+}
+/*End Box4*/
+
 /*
 ------------
 Start Footer
 ------------
 */
-
 .footer {
     overflow: auto;
     background: linear-gradient(to right, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* Standard syntax */
