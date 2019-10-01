@@ -99,7 +99,7 @@ Start Content
     overflow: auto;
     background-color: rgb(236, 231, 231);
     padding: 10px 100px 10px 100px;
-    text-align: justify;
+    text-align: center;
 }
 .box-1 h2 {
     text-align: center;

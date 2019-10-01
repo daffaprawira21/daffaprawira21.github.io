@@ -165,7 +165,7 @@ Start Footer
 
 .footer {
     overflow: auto;
-    background: black;
+    background: rgb(48, 47, 49);
     color: white;
 }
 

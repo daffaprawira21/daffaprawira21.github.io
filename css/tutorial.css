@@ -157,10 +157,7 @@ Start Footer
 */
 .footer {
     overflow: auto;
-    background: linear-gradient(to right, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* Standard syntax */
-	background: -webkit-linear-gradient(left, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Firefox 3.6 to 15 */
+    background: rgb(48, 47, 49);
     color: white;
 }
 
