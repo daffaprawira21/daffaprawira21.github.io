@@ -36,11 +36,12 @@ a:link {
     position: relative;
 }
 
-
+/*rgb(48, 47, 49)*/
 .menu ul {
-    font-size: 20px;
     background: rgb(48, 47, 49);
     margin: auto;
+    font-size: 20px;
+    list-style: none;
     padding: 10px 0px 10px 0px;
     overflow: auto;
 }
@@ -71,7 +72,7 @@ Start Content
 */
 /*Start Spotlight*/
 .spotlight {
-    background-image: url("../images/netik.jpg");
+    background-image: url("../images/laptop.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,7 +154,7 @@ Start Footer
 
 .footer {
     overflow: auto;
-    background: linear-gradient(to right, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* Standard syntax */
+    background: linear-gradient(to right, rgb(153, 0, 255) , rgb(41, 72, 119), rgb(58, 199, 255)); /* Standard syntax */
 	background: -webkit-linear-gradient(left, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Firefox 3.6 to 15 */
@@ -182,4 +183,10 @@ Start Footer
 ------------
 End Footer
 ------------
+*/
+
+/*
+-----------------
+Responsive Layout
+-----------------
 */

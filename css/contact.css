@@ -162,6 +162,9 @@ Start Footer
     padding-left: 22px;
 }
 
+.col-2 ul li {
+    list-style-type: none;
+}
 .col-2, .col-3 {
     padding-left: 60px;
 }
