@@ -36,32 +36,41 @@ a:link {
     position: relative;
 }
 
-/*rgb(48, 47, 49)*/
+
 .menu ul {
+    width: 100%;
+    font-size: 20px;
     background: rgb(48, 47, 49);
     margin: auto;
-    font-size: 20px;
-    list-style: none;
-    padding: 10px 0px 10px 0px;
+    padding: 0px;
     overflow: auto;
 }
 
 .menu li {
     display: initial;
-    margin-left: 40px;
+    
 }
 
 .menu li a {
+    float: left;
+    margin: auto;
+    padding: 10px 12px 10px 14px;
+    color: white;
+    text-decoration: none;
+    width: 14.7%; /* Four links of equal widths */
+    text-align: center;
     color: white;
     text-decoration: none;
 }
 
 .menu li a:hover {
     color: white;
-    background-color: rgb(47, 0, 255);
-    margin: auto;
-    padding: 10px 0px 10px 0px;
-
+    background-color: rgb(0, 0, 0);
+    padding: 10px 12px 10px 14px;
+}
+.menu li a.active {
+    background-color: rgb(61, 216, 255);
+    padding: 10px 12px 10px 14px;
 }
 /*End Header*/
 
@@ -73,6 +82,7 @@ Start Content
 /*Start Spotlight*/
 .spotlight {
     background-image: url("../images/laptop.jpg");
+    opacity: 0.9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,6 +94,7 @@ Start Content
 
 .spotlight h1 {
     background: rgb(48, 47, 49);
+    opacity: 0.8;
     width: 400px;
     height: 50px;
     text-align: center;
@@ -97,54 +108,65 @@ Start Content
 
 /*Start Box1*/
 .box-1 {
-    overflow: auto;
-    background-color: white;
-    padding: 10px 10px 10px 30px;
-    text-align: justify;
+    max-width: 270px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 30px;
 }
 
-.clear-1 {
-    text-align:justify;
-    width:42%;
-    background-color:white;
-    border:0px ;
-    padding:10px;
-}
 /*End Box1*/
 
 /*Start Box2*/
 .box-2 {
-    overflow: auto;
-    background-color: rgb(255, 246, 246);
-    padding: 10px 10px 10px 30px;
-    text-align: justify;
-}
-
-.clear-2 {
-    text-align:justify;
-    width:42%;
-    background-color:rgb(255, 246, 246);
-    border:0px ;
-    padding:10px;
+    max-width: 270px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 170px;
 }
 /*End Box2*/
 
 /*Start Box3*/
 .box-3 {
-    overflow: auto;
-    background-color: rgb(243, 239, 239);
-    padding: 10px 10px 10px 30px;
-    text-align: justify;
+    max-width: 270px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 190px;
 }
 
-.clear-3 {
-    text-align:justify;
-    width:45%;
-    background-color:rgb(243, 239, 239);
-    border:0px ;
-    padding:10px;
+.box-4 {
+    max-width: 270px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 250px;
+}
+
+.box-5 {
+    max-width: 270px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 220px;
+}
+.box-1, .box-2, .box-3,.box-4, .box-5 {
+    float: left;
+    width: 50%;
+}
+
+.box-1 h2, .box-2 h2, .box-3 h2,.box-4 h2, .box-5 h2 {
+    text-align: center;
+}
+.box-1 p, .box-2 p, .box-3 p,.box-4 p, .box-5 p {
+    padding-left: 0px;
 }
 /*End Box3*/
+.content {
+    padding: 15px;
+    padding-bottom:900px;
+}
 
 /*
 ------------
@@ -154,11 +176,9 @@ Start Footer
 
 .footer {
     overflow: auto;
-    background: linear-gradient(to right, rgb(153, 0, 255) , rgb(41, 72, 119), rgb(58, 199, 255)); /* Standard syntax */
-	background: -webkit-linear-gradient(left, rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right,  rgb(153, 0, 255) , rgb(0, 102, 255), rgb(58, 199, 255)); /* For Firefox 3.6 to 15 */
+    background: rgb(48, 47, 49);
     color: white;
+    position: relative;
 }
 
 .copyright {
@@ -166,6 +186,7 @@ Start Footer
     overflow: auto;
     background: white;
     text-align: center;
+    width: 100%;
 }
 
 .col-1, .col-2, .col-3 {
@@ -190,3 +211,12 @@ End Footer
 Responsive Layout
 -----------------
 */
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 500px) {
+    .menu li a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+}
